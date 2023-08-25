@@ -2,7 +2,6 @@ spd = 3
 hspd = 0
 vspd = 0
 enemy_gravity = 0.20
-enemy_damage_text = ""
 hit = false
 up_image_alpha = false
 

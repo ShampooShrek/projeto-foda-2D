@@ -20,7 +20,7 @@ if(distance_to_object(obj_player) <= enemy_vision_distance) {
 
 if(is_chasing) {
 	var _dir_to_player = point_direction(x, y, obj_player.x, obj_player.y)
-	motion_set(_dir_to_player, 2)
+	hspd = lengthdir_x(2, _dir_to_player)
 }
 
 scr_colision()
